@@ -16,7 +16,7 @@
   text-decoration: none;
   font-size: x-large;
   font-weight: bold;
-  margin: 16px 0px 16px 50px;
+  margin: 16px 0px 16px 100px;
   cursor: pointer;
 }
 
@@ -29,6 +29,7 @@
 }
 
 .nav-menu {
+  margin-right: 50px;
   display: grid;
   grid-template-columns: repeat(5, auto);
   list-style: none;
@@ -39,7 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 40px;
+  margin-right: 50px;
   height: 100%;
   text-decoration: none;
   color: #fff;
@@ -52,6 +53,7 @@
 
 @media screen and (max-width: 960px) {
   .hamburger-button {
+    margin-right: 50px;
     display: flex;
     padding: 16px 32px 16px 0px;
     font-size: 1.5rem;
