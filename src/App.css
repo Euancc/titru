@@ -3,3 +3,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url('titiru-back-g.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
