@@ -1,5 +1,5 @@
 .navbar {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(1, 8, 0, 0.757);
   color: #fff;
   height: 70px;
   position: sticky;
@@ -9,12 +9,20 @@
   justify-content: space-between;
   align-items: center;
   background-image: none;
+  border-radius: 15px;
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('GreatVibes-Regular.ttf');
 }
 
 .nav-logo {
   color: #fff;
   text-decoration: none;
-  font-size: x-large;
+  font-family: 'GreatVibes';
+
+  font-size: xx-large;
   font-weight: bold;
   margin: 16px 0px 16px 100px;
   cursor: pointer;
