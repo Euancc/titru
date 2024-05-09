@@ -1,5 +1,5 @@
 .navbar {
-  background: rgba(1, 8, 0, 0.757);
+  background: rgba(1, 8, 0, 0.8);
   color: #fff;
   height: 70px;
   position: sticky;
@@ -12,16 +12,10 @@
   border-radius: 15px;
 }
 
-@font-face {
-  font-family: 'GreatVibes';
-  src: url('GreatVibes-Regular.ttf');
-}
-
 .nav-logo {
   color: #fff;
   text-decoration: none;
   font-family: 'GreatVibes';
-
   font-size: xx-large;
   font-weight: bold;
   margin: 16px 0px 16px 100px;
@@ -52,11 +46,22 @@
   height: 100%;
   text-decoration: none;
   color: #fff;
-  font-size: large;
+  font-size: x-large;
+  font-family: 'print_clearly';
 }
 
 .nav-link:hover {
   color: bisque;
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('GreatVibes-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'print_clearly';
+  src: url('print_clearly_tt.ttf');
 }
 
 @media screen and (max-width: 960px) {
