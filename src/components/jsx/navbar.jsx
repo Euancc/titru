@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <Link to="#about" className="nav-logo" onClick={closeMobileMenu}>
-        Titiru Eco-Lodge
+        Titiru Eco Lodge
       </Link>
 
       <div className="hamburger-button" onClick={handleClick}>

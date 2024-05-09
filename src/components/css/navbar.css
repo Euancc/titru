@@ -15,7 +15,7 @@
 .nav-logo {
   color: #fff;
   text-decoration: none;
-  font-family: 'GreatVibes';
+  font-family: 'Tropical';
   font-size: xx-large;
   font-weight: bold;
   margin: 16px 0px 16px 100px;
@@ -55,13 +55,18 @@
 }
 
 @font-face {
-  font-family: 'GreatVibes';
-  src: url('GreatVibes-Regular.ttf');
+  font-family: 'Tropical';
+  src: url('Tropical.ttf');
 }
 
 @font-face {
   font-family: 'print_clearly';
   src: url('print_clearly_tt.ttf');
+}
+
+@font-face {
+  font-family: 'QuickDog';
+  src: url('QuickDog.ttf');
 }
 
 @media screen and (max-width: 960px) {
