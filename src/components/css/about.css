@@ -28,8 +28,10 @@
 
 .about-text {
   margin: auto;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 80px;
+  font-family: 'print_clearly';
+  font-size: x-large;
+  font-weight: 500;
 }
 
 .about-img {

@@ -7,7 +7,7 @@ function About() {
       <section className="about-section">
         <hr width="90%" size="2" />
         <div className="about-container">
-          <img className="about-img" src="village-people.jpg" />
+          <img className="about-img" src="titiru-welcome1.jpg" />
           <div className="about-text">
             <h1>Our Story</h1>
             <p>
