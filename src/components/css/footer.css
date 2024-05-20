@@ -1,9 +1,53 @@
 footer {
   min-height: 200px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('titiru-coral.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(20, 20, 20, 0.9);
+  color: #ffffff;
   width: 100%;
-  height: 100%;
+
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('titiru-coral-rescale2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 15px;
+}
+
+.footer-item {
+  text-align: center;
+
+  flex: 1;
+}
+
+.footer-item h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.footer-item p {
+  margin: 0;
+}
+
+.contact-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+}
+
+.location-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+}
+
+.connect-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
 }
