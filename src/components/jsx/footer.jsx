@@ -20,7 +20,11 @@ function Footer() {
 
         <div className="footer-item">
           <h3>Connect with us</h3>
-          <div className="conncet-sect"></div>
+          <div className="connect-sect">
+            <img src="facebook.png" />
+            <img src="tiktok1.png" />
+            <img src="instagram.png" />
+          </div>
         </div>
       </div>
     </footer>

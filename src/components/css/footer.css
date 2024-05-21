@@ -3,9 +3,12 @@ footer {
   background-color: rgba(20, 20, 20, 0.9);
   color: #ffffff;
   width: 100%;
+  border-radius: 5px;
+  font-family: 'print_clearly';
+  font-size: 20px;
 
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('titiru-coral-rescale2.jpg');
+    url('titiru-coral-rescale2.jpg');
   background-size: cover;
   background-repeat: no-repeat; */
 }
@@ -24,7 +27,7 @@ footer {
 }
 
 .footer-item h3 {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 .footer-item p {
@@ -33,21 +36,27 @@ footer {
 
 .contact-sect {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
-  height: 50%;
+  height: 30%;
 }
 
 .location-sect {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
-  height: 50%;
+  height: 30%;
 }
 
 .connect-sect {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 50%;
+}
+
+.connect-sect img {
+  margin: 25px 5px 0px 5px;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
