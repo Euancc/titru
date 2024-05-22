@@ -1,5 +1,5 @@
 footer {
-  min-height: 200px;
+  min-height: 250px;
   background-color: rgba(20, 20, 20, 0.9);
   color: #ffffff;
   width: 100%;
@@ -16,8 +16,10 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
-  padding: 15px;
+  height: 100%;
+  padding: 25px;
 }
 
 .footer-item {
@@ -36,16 +38,23 @@ footer {
 
 .contact-sect {
   display: flex;
-
   justify-content: center;
   height: 30%;
 }
 
 .location-sect {
   display: flex;
+}
 
-  justify-content: center;
-  height: 30%;
+.map-container {
+  margin: auto;
+  height: 200px;
+  width: 300px;
+}
+
+.footer-item iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .connect-sect {
@@ -55,7 +64,7 @@ footer {
 }
 
 .connect-sect img {
-  margin: 25px 5px 0px 5px;
+  margin: 10px 5px 0px 5px;
   justify-content: center;
   width: 40px;
   height: 40px;

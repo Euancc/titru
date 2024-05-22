@@ -12,11 +12,14 @@ function About() {
             <div className="about-text">
               <h1>Titiru Eco-Lodge</h1>
               <p className="subheader">'The undiscovered paradise'</p>
-              <h2>Experience Solomon Island sustainable living...</h2>
+              <h2>
+                {' '}
+                <em>Experience Solomon Island sustainable living...</em>
+              </h2>
               <p>
                 We believe in eco-tourism where culture and environment is shown
                 and preserved for tourists and the people. Enjoy island food
-                like you’ve never tasted before. Become alive with an
+                like you've never tasted before. Become alive with an
                 unforgettable island adventure.
                 <br /> See and feel the Solomon Island and Rendova experience.
                 Be part of island nature full of beauty, intrigue and wonder.{' '}
