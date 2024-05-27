@@ -9,11 +9,13 @@ import Gallery from '../components/jsx/gallery'
 function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Gallery />
-      <Footer />
+      <div className="back-g">
+        <Navbar />
+        <Hero />
+        <About />
+        <Gallery />
+        <Footer />
+      </div>
     </>
   )
 }
