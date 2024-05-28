@@ -328,7 +328,11 @@ export default function Gallery() {
 
   return (
     <div className="gallery">
-      <ImageGallery items={images} />
+      <ImageGallery
+        items={images}
+        showPlayButton={false}
+        showFullscreenButton={false}
+      />
     </div>
   )
 }
