@@ -26,14 +26,25 @@ function Contact() {
             <div className="input-title">Message</div>
             <textarea
               name="message"
-              placeholder="Your Message"
+              placeholder=""
               className="contact-inputs"
               required
             />
-            <button type="submit">Submit</button>
+            <div>
+              <button type="submit">Submit</button>
+            </div>
           </form>
 
-          <div className="contact-text"></div>
+          <div className="contact-text">
+            <h2>Send us a message!</h2>
+            <p>
+              Contact us for a list of bungalows and prices, boat transfers, as
+              well as all the activities that you can do while your here at
+              Titiru
+            </p>
+            <br />
+            <p>Hope to hear from you soon!</p>
+          </div>
         </div>
       </section>
     </>

@@ -1,9 +1,28 @@
+.contact-sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+}
+
 .contact-container {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   color: #ffffff;
   background-color: rgb(20, 20, 20, 0.9);
   height: 500px;
   width: 1000px;
   margin-bottom: 50px;
   border-radius: 15px;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.contact-text h2 {
+  margin: 20px;
 }
