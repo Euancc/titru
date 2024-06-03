@@ -1,8 +1,17 @@
 .contact-sect {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: fantasy;
+}
+
+.contact-sect hr {
+  width: 90%;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border: none;
+  border-top: 2px solid rgba(141, 141, 141, 0.379);
 }
 
 .contact-container {
@@ -13,8 +22,33 @@
   background-color: rgb(20, 20, 20, 0.9);
   height: 500px;
   width: 1000px;
+  margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 15px;
+}
+
+.input-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-inputs {
+  width: 250px;
+  height: 30px;
+  font-size: medium;
+  font-family: fantasy;
+}
+
+.message-input {
+  width: 300px;
+  height: 100px;
+  font-size: medium;
+  font-family: fantasy;
+}
+
+button {
+  padding: 3px;
+  margin-top: 5px;
 }
 
 .contact-text {
@@ -24,5 +58,5 @@
 }
 
 .contact-text h2 {
-  margin: 20px;
+  margin-bottom: 20px;
 }

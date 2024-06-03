@@ -11,6 +11,7 @@
 
 .about-section hr {
   width: 90%;
+  margin-top: 40px;
 
   border: none;
   border-top: 2px solid rgba(141, 141, 141, 0.379);
@@ -19,7 +20,7 @@
 .about-container {
   display: flex;
 
-  margin: 150px 70px 150px 70px;
+  margin: 100px 70px 100px 70px;
   border-radius: 10px;
   overflow: hidden;
 }

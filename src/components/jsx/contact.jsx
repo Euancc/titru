@@ -4,7 +4,8 @@ import '../css/contact.css'
 function Contact() {
   return (
     <>
-      <section className="contact-sect">
+      <section className="contact-sect" id="contact">
+        <hr width="90%" size="2" />
         <div className="contact-container">
           <form className="input-fields">
             <div className="input-title">Name</div>
@@ -27,7 +28,7 @@ function Contact() {
             <textarea
               name="message"
               placeholder=""
-              className="contact-inputs"
+              className="message-input"
               required
             />
             <div>
@@ -36,7 +37,7 @@ function Contact() {
           </form>
 
           <div className="contact-text">
-            <h2>Send us a message!</h2>
+            <h2>Get in touch</h2>
             <p>
               Contact us for a list of bungalows and prices, boat transfers, as
               well as all the activities that you can do while your here at
@@ -46,6 +47,7 @@ function Contact() {
             <p>Hope to hear from you soon!</p>
           </div>
         </div>
+        {/* <hr width="90%" size="2" /> */}
       </section>
     </>
   )
