@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../css/footer.css'
 
 function Footer() {
@@ -8,8 +9,8 @@ function Footer() {
         <div className="footer-item">
           <h3>Contact us</h3>
           <div className="contact-sect"></div>
-          <p>titiruecolodge@gmail.com</p>
-          <p>7312257</p>
+          <p>email: titiruecolodge@gmail.com</p>
+          <p>ph: +777312257</p>
         </div>
 
         <div className="footer-item">
@@ -30,9 +31,29 @@ function Footer() {
         <div className="footer-item">
           <h3>Connect with us</h3>
           <div className="connect-sect">
-            <img src="facebook.png" />
-            <img src="tiktok1.png" />
-            <img src="instagram.png" />
+            <a
+              href="https://www.facebook.com/Titiruecolodge2021/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="facebook.png" />
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@titiruecolodge677"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="tiktok1.png" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/titiru_eco_lodge/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="instagram.png" />
+            </a>
           </div>
         </div>
       </div>

@@ -38,10 +38,11 @@ function Contact() {
 
           <div className="contact-text">
             <h2>Get in touch</h2>
+            <hr />
             <p>
-              Contact us for a list of bungalows and prices, boat transfers, as
-              well as all the activities that you can do while your here at
-              Titiru
+              Contact us for a list of bungalow options, prices of boat
+              transfers, as well as all the activities that you can do while
+              your here at Titiru or for any other enquiries.
             </p>
             <br />
             <p>Hope to hear from you soon!</p>

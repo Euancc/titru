@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <Link to="#about" className="nav-logo" onClick={closeMobileMenu}>
+      <Link to="#home" className="nav-logo" onClick={closeMobileMenu}>
         Titiru Eco Lodge
       </Link>
 
@@ -25,18 +25,6 @@ function Navbar() {
             About
           </Link>
         </li>
-        {/* 
-        <li>
-          <Link to="/#services" className="nav-link" onClick={closeMobileMenu}>
-            Bungalows
-          </Link>
-        </li> */}
-        {/* 
-        <li>
-          <Link to="/#Gallery" className="nav-link" onClick={closeMobileMenu}>
-            Activities
-          </Link>
-        </li> */}
 
         <li>
           <Link to="/#gallery" className="nav-link" onClick={closeMobileMenu}>
