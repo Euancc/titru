@@ -7,8 +7,8 @@ body {
   background-image: url('Leaves--green2-portrait-shade.jpg');
   background-position: 0;
 
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 125px;
+  margin-right: 125px;
 }
 
 @media screen and (max-width: 1060px) {

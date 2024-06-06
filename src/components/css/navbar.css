@@ -19,7 +19,7 @@
   font-family: 'Tropical';
   font-size: xx-large;
   font-weight: bold;
-  margin: 16px 0px 16px 100px;
+  margin: 16px 0px 16px 50px;
   cursor: pointer;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .nav-menu {
-  margin-right: 50px;
+  /* margin-right: 50px; */
   display: grid;
   grid-template-columns: repeat(5, auto);
   list-style: none;
@@ -72,7 +72,7 @@
 
 @media screen and (max-width: 960px) {
   .hamburger-button {
-    margin-right: 50px;
+    margin-right: 25px;
     display: flex;
     padding: 16px 32px 16px 0px;
     font-size: 1.5rem;
@@ -87,7 +87,6 @@
   .nav-menu.active {
     left: 0;
     transition: all 0.5s ease;
-    height: 100vh;
   }
 
   .nav-menu {
@@ -96,11 +95,12 @@
     justify-content: flex-start;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 90vh;
     position: absolute;
     top: 70px;
-    left: -100%;
+    left: -110%;
     transition: all 0.5s ease;
+    border-radius: 15px;
   }
 
   .nav-link {
