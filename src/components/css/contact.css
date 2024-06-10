@@ -58,7 +58,8 @@ button {
   width: 45%;
 }
 
-.contact-text h2 {
+.finish-line {
+  margin-top: 10px;
 }
 
 .contact-container hr {
@@ -67,12 +68,23 @@ button {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 1246px) {
+  .contact-container {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 700px) {
-  .contact-sect hr {
-    margin-bottom: 50px;
+  .contact-container {
+    display: flex;
+    flex-direction: column;
   }
 
-  .contact-container hr {
-    margin-bottom: 10px;
+  .contact-text {
+    order: -1;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }

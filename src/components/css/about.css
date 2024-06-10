@@ -73,6 +73,9 @@
   .about-text-container {
     width: 800px;
   }
+  .about-text-container {
+    order: -1;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -103,8 +106,5 @@
   .about-container {
     margin: 0;
     padding: 0;
-  }
-  .about-text-container {
-    order: -1;
   }
 }

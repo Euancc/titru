@@ -45,7 +45,7 @@ function Contact() {
               your here at Titiru or for any other enquiries.
             </p>
             <br />
-            <p>Hope to hear from you soon!</p>
+            <p className="finish-line">Hope to hear from you soon!</p>
           </div>
         </div>
         {/* <hr width="90%" size="2" /> */}
