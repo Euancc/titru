@@ -5,25 +5,22 @@ footer {
   width: 100%;
   font-family: 'print_clearly';
   font-size: 20px;
-
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('titiru-coral-rescale2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat; */
+  display: flex;
+  align-items: center;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   width: 100%;
   height: 100%;
-  padding: 25px;
 }
 
 .footer-item {
   text-align: center;
-
+  margin: 5px;
   flex: 1;
 }
 
@@ -38,7 +35,6 @@ footer {
 .contact-sect {
   display: flex;
   justify-content: center;
-  height: 30%;
 }
 
 .location-sect {
@@ -67,4 +63,14 @@ footer {
   justify-content: center;
   width: 40px;
   height: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    margin: 15px;
+  }
 }
