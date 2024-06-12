@@ -55,21 +55,6 @@
   color: bisque;
 }
 
-@font-face {
-  font-family: 'Tropical';
-  src: url('Tropical.ttf');
-}
-
-@font-face {
-  font-family: 'print_clearly';
-  src: url('print_clearly_tt.ttf');
-}
-
-@font-face {
-  font-family: 'QuickDog';
-  src: url('QuickDog.ttf');
-}
-
 @media screen and (max-width: 960px) {
   .hamburger-button {
     margin-right: 25px;
