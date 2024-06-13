@@ -13,6 +13,7 @@ fs.readdir(directoryPath, (err, files) => {
   const images = files.map((file) => ({
     original: `${baseUrl}${file}`,
     thumbnail: `${baseUrl}${file}`,
+    alt: `Image of ${file}`,
   }))
 
   console.log(JSON.stringify(images, null, 2))

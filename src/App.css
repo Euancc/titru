@@ -12,11 +12,6 @@ body {
 }
 
 @font-face {
-  font-family: 'Tropical';
-  src: url('Tropical.ttf');
-}
-
-@font-face {
   font-family: 'print_clearly';
   src: url('print_clearly_tt.ttf');
 }

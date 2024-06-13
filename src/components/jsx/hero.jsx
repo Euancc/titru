@@ -5,11 +5,7 @@ function Hero() {
   return (
     <>
       <div className="hero-section">
-        <img
-          className="hero-img"
-          src="Tittru-hero-3-compressed.jpg"
-          id="home"
-        />
+        <img className="hero-img" src="Tittru-hero-3-comp.jpg" id="home" />
       </div>
     </>
   )

@@ -16,7 +16,7 @@
 .nav-logo {
   color: #fff;
   text-decoration: none;
-  font-family: 'Tropical';
+  font-family: 'Cookie', cursive;
   font-size: xx-large;
   font-weight: bold;
   margin: 16px 0px 16px 50px;
@@ -53,6 +53,12 @@
 
 .nav-link:hover {
   color: bisque;
+}
+
+@font-face {
+  font-family: 'Tropical';
+  src: url('Tropical.ttf') format('woff2');
+  font-display: swap;
 }
 
 @media screen and (max-width: 960px) {
