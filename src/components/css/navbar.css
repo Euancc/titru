@@ -55,11 +55,11 @@
   color: bisque;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Tropical';
   src: url('Tropical.ttf') format('woff2');
   font-display: swap;
-}
+} */
 
 @media screen and (max-width: 960px) {
   .hamburger-button {

@@ -11,6 +11,17 @@ body {
   margin-right: 125px;
 }
 
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+  z-index: -1; /* Ensure it's behind other content */
+}
+
 @font-face {
   font-family: 'print_clearly';
   src: url('print_clearly_tt.ttf');
