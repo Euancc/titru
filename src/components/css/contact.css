@@ -8,7 +8,7 @@
 
 .contact-sect hr {
   width: 90%;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 
   border: none;
   border-top: 2px solid rgba(141, 141, 141, 0.379);
@@ -23,7 +23,7 @@
   height: 500px;
   width: 1000px;
 
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   border-radius: 15px;
 }
 

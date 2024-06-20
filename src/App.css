@@ -23,6 +23,12 @@ body::after {
 }
 
 @font-face {
+  font-family: 'Tropical';
+  src: url('TropicalDisplayDemo.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'print_clearly';
   src: url('print_clearly_tt.ttf');
 }
