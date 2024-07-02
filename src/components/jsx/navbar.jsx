@@ -2,8 +2,6 @@ import react, { useState } from 'react'
 import '../css/navbar.css'
 import { HashLink as Link } from 'react-router-hash-link'
 
-import React from 'react'
-
 function Navbar() {
   const [click, setclick] = useState(false)
   const handleClick = () => setclick(!click)
@@ -11,9 +9,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <Link to="#home" className="nav-logo" onClick={closeMobileMenu}>
-        Titiru Eco Lodge
-      </Link>
+      <p>Titiru Eco Lodge</p>
 
       <div className="hamburger-button" onClick={handleClick}>
         <img src={click ? 'close.png' : 'hamburger.png'} />

@@ -22,11 +22,11 @@ body::after {
   z-index: -1; /* Ensure it's behind other content */
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Tropical';
   src: url('TropicalDisplayDemo.woff2') format('woff2');
   font-display: swap;
-}
+} */
 
 @font-face {
   font-family: 'print_clearly';

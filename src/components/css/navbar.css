@@ -13,15 +13,15 @@
   margin: 20px;
 }
 
-.nav-logo {
+/* .nav-logo {
   color: #fff;
   text-decoration: none;
-  font-family: 'Tropical';
+  font-family: Courier, monospace;
   font-size: xx-large;
-  /* font-weight: bold; */
+
   margin: 16px 0px 16px 50px;
   cursor: pointer;
-}
+} */
 
 .nav-logo:hover {
   color: bisque;
