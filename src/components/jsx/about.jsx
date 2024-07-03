@@ -7,7 +7,11 @@ function About() {
       <section className="about-section" id="about">
         {/* <hr width="90%" size="2" /> */}
         <div className="about-container">
-          <img className="about-img" src="titiru-welcome1.jpg" />
+          <img
+            className="about-img"
+            src="titiru-welcome1.jpg"
+            alt="family welcoming guest"
+          />
           <div className="about-text-container">
             <div className="about-text">
               <h1>Titiru Eco-Lodge</h1>

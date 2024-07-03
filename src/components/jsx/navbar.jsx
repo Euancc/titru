@@ -12,7 +12,7 @@ function Navbar() {
       <p>Titiru Eco Lodge</p>
 
       <div className="hamburger-button" onClick={handleClick}>
-        <img src={click ? 'close.png' : 'hamburger.png'} />
+        <img src={click ? 'close.png' : 'hamburger.png'} alt="hamburger icon" />
       </div>
 
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
