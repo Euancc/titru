@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <p>Titiru Eco Lodge</p>
+      <p className="nav-logo">Titiru Eco Lodge</p>
 
       <div className="hamburger-button" onClick={handleClick}>
         <img src={click ? 'close.png' : 'hamburger.png'} alt="hamburger icon" />

@@ -13,15 +13,15 @@
   margin: 20px;
 }
 
-/* .nav-logo {
+.nav-logo {
   color: #fff;
   text-decoration: none;
-  font-family: Courier, monospace;
+  font-family: 'Tropical', monospace;
   font-size: xx-large;
 
   margin: 16px 0px 16px 50px;
   cursor: pointer;
-} */
+}
 
 .nav-logo:hover {
   color: bisque;
@@ -55,11 +55,11 @@
   color: bisque;
 }
 
-/* @font-face {
+@font-face {
   font-family: 'Tropical';
-  src: url('Tropical.ttf') format('woff2');
+  src: url('TropicalDisplayDemo.woff2') format('woff2');
   font-display: swap;
-} */
+}
 
 @media screen and (max-width: 960px) {
   .hamburger-button {
