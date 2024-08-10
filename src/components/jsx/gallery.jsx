@@ -106,6 +106,19 @@ export default function Gallery() {
     },
   ]
 
+  // const renderImage = (item) => {
+  //   return (
+  //     <div>
+  //       <img
+  //         src={item.original}
+  //         alt={item.alt}
+  //         loading="lazy" // Keeps lazy loading enabled
+  //       />
+  //     </div>
+  //   );
+  // };
+
+
   return (
     <section id="gallery">
       <div className="gallery">
@@ -114,6 +127,7 @@ export default function Gallery() {
           showPlayButton={false}
           showFullscreenButton={false}
           lazyLoad={true}
+            // renderItem={renderImage}
         />
       </div>
     </section>
