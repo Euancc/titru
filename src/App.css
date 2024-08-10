@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background-image: url('compressed-leave-green.jpg');
+  background-image: url('/compressed-leave-green.jpg');
   background-position: 0;
 
   margin-left: 125px;
@@ -28,10 +28,7 @@ body::after {
   font-display: swap;
 } */
 
-@font-face {
-  font-family: 'print_clearly';
-  src: url('print_clearly_tt.ttf');
-}
+
 
 @media screen and (max-width: 1060px) {
   body {
